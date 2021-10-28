@@ -66,7 +66,7 @@ const run = async () => {
 run().catch( console.error );
 
 app.get( '/', ( req, res ) => {
-    res.send( 'Running Genius Server' );
+    res.send( 'Running Genius Server in Heroku App Server in Cloud' );
 } );
 
 app.listen( port, () => {
